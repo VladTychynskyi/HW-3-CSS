@@ -1,0 +1,164 @@
+body {
+    background-color:#3E3E3E;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:15px;
+}
+
+table {
+
+    text-align:left;
+    border-collapse:collapse;
+    border-radius:10px;
+    box-shadow:0 0 0 1px rgb(115, 115, 115);
+    color:#ffffff;
+    width:40%;
+    margin-left: 30px;
+    margin-top: 30px;
+    table-layout :fixed;
+}
+
+th {
+
+    padding:10px;
+    
+}
+
+table th:first-child {
+
+    border-top-left-radius:10px;
+}
+
+table th:last-child {
+
+    border-top-right-radius:10px;
+}
+
+td {
+
+    border-top:1px solid rgb(115, 115, 115);
+    padding:10px;
+
+}
+
+table td:first-child {
+
+    border-bottom-left-radius:10px;
+}
+
+table td:last-child {
+
+    border-bottom-right-radius:10px;
+}
+
+
+.down-arrow {
+
+  background-color: #3E3E3E;
+  border-bottom: 0px solid #ffffff;
+  position: relative;
+}
+
+.down-arrow::after {
+
+    border: medium solid transparent;
+    content: "";
+    top: 48%;
+    left: 35%;
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-color: #ffffff rgba(255, 212, 52, 0) rgba(255, 212, 52, 0);
+    border-width: 5px;
+    margin-left: -5px;
+}
+
+.text {
+
+    color:rgb(115, 115, 115);
+}
+
+.f-dots {
+
+    text-align:right;
+    color:rgb(115, 115, 115);
+}
+
+.dots {
+
+    text-align: right;
+}
+
+.search-table {
+
+    padding:5px;
+}
+
+.search {
+
+    background-color: rgb(115, 115, 115);
+    border-radius: 7px;
+    padding: none;
+    cursor: text;
+}
+
+.search-img {
+
+    padding-top:10px;
+    padding-left:10px;
+    width: 13px;
+}
+
+.search-input {
+
+    background-color:rgb(115, 115, 115);
+    border:none;
+    outline:none;
+    color:#ffffff;
+    width: 150px;
+    font-size: 15px;   
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+
+input::-webkit-input-placeholder {
+    color:#ffffff;
+}
+
+.image-table {
+
+    color: rgb(221, 220, 220);
+}
+
+.file-img {
+
+    height: 15px;
+    width: 15px;
+    padding-right: 5px;
+}
+
+.down-arrow2 {
+
+    background-color: #3E3E3E;
+  border-bottom: 0px solid #ffffff;
+  position: relative;
+}
+
+.down-arrow2::after {
+
+    border: medium solid transparent;
+    content: "";
+    top: 48%;
+    left: 47%;
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-color: #ffffff rgba(255, 212, 52, 0) rgba(255, 212, 52, 0);
+    border-width: 5px;
+    margin-left: -5px;
+}
+
+
+
+
+
